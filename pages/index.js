@@ -43,7 +43,9 @@ export default function Home() {
           <meta name="description" content='First consolidated Hardstyle cuban movement website. Brief history, and many djs bio'/>
           <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
         </Head>
+        
         <Header >
+          
           <h1 className="font-sans text-white text-2xl tracking-wide font-bold text-center align-middle my-12">Habana Hard Dance</h1>
         </Header>
         
@@ -52,6 +54,11 @@ export default function Home() {
         <SectionSlide/>
         <TextContainer header="El hardstyle, hardcore y el hard en si" text={text2}/>
         <TextContainer header="Sobre el futuro" text={text3}/>
+        <div className='flex align-middle mx-2 my-2 justify-center'>
+        <audio controls autoPlay>
+            <source src="Mustang Gunz for hire-E-Life.mp3" type="audio/mpeg"/>Your browser does not support the audio element
+          </audio>
+        </div>
         <Footer>
           
           <ContactItem />
