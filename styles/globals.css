@@ -43,39 +43,46 @@ a {
 /*Clases de react con tailwind*/
 .App-header {
   background-image: url(../public/bannerHardstyle2.jpg);
+
 }
   .fa {
-    padding: 25px;
-    font-size: 30px;
-    margin: 5px;
-    width: 40px;
-    align-self: center;
+    
+    font-size: 50px;
+    width: 25px;
     text-align: center;
     text-decoration: none;
     border-radius: 35%;
   }
   
-  .fa:hover {
+  .fa-facebook:hover {
+    color: #0585da;
     opacity: 0.7;
   }
-  
+  .fa-instagram:hover {
+    color: #e67e4e;
+    opacity: 0.7;
+  }
+  .fa-twitter:hover {
+    color: #1ab1f7;
+    opacity: 0.9;
+  }
   .fa-facebook {
-    background: #043bb3;
+    
     color: white;
   }
   
   /* Twitter */
   .fa-twitter {
-    background: #0480df;
+    
     color: white;
   }
   
   .fa-instagram {
-    background: #cf6219;
+    
     color: white;
   }
   .fa-linkedin {
-    background: #3a4cf5;
+    
     color: white;
   }
 
@@ -92,13 +99,13 @@ a {
 @media (max-width:360px) {
   .fa {
     display: inline;
-    padding: 10px;
+    
     font-size: 10px;
     
-    width: 25px;
-    align-self: flex-start;
-    text-align: center;
+    width: 20px;
+    align-self: auto;
+    text-align: auto;
     text-decoration: none;
-    border-radius: 50%;
+    
   }
 }

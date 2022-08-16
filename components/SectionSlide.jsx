@@ -13,27 +13,27 @@ export default function SectionSlide()
         setIndex(selectedIndex)
     }
    
-    return(<div className=" flex-1 md:mx-10 sm:mx-5 ">
+    return(<div className=" flex-1 md:mx-10 mx-2 ">
         <Carousel className="border rounded-lg" activeIndex={index} onSelect={handleSelect}>
             <Carousel.Item>
                 <img  className="flex  w-100 h-96"  src='/dj-mixing.jpg' alt="First Slide"/>
                 <Carousel.Caption>
-                    <h3>Primer slide</h3>
-                    <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                    <h3>Sueña</h3>
+                    <p>Mientras escuchas nuestra musica</p>
                 </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item>
                 <img  className="flex  w-100 h-96" layout="fill" src='/hitsTrance.png' alt="Second Slide"/>
                 <Carousel.Caption>
-                    <h3>Segundo slide</h3>
-                    <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                    
+                    <p>Siente el uplifting y salta</p>
                 </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item>
                 <img className="flex  w-100 h-96" layout="fill" src='/tranceLight.jpg'  alt="Third Slide"/>
                 <Carousel.Caption>
-                    <h3>Tercer slide</h3>
-                    <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                    <h3>Crea</h3>
+                    <p className="text-gray-300 text-lg">Aprende con nosotros e ilumina al mundo con tu potencial</p>
                 </Carousel.Caption>
             </Carousel.Item>
         </Carousel>

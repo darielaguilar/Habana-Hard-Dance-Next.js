@@ -11,12 +11,20 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 
 export default function Home() {
-  const text1 = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut placerat orci nulla pellentesque dignissim. Blandit cursus risus at ultrices mi tempus. Sed risus ultricies tristique nulla aliquet enim tortor. Lacus vel facilisis volutpat est velit. Semper quis lectus nulla at volutpat diam ut. Non sodales neque sodales ut etiam sit amet. Vel elit scelerisque mauris pellentesque. Ullamcorper eget nulla facilisi etiam. Tincidunt nunc pulvinar sapien et ligula ullamcorper malesuada proin."+
+  const text1 = "Habana Hard Dance es un movimiento para promover los géneros del Hard en especial el Hardstyle, el Techno Hardcore Gabber(Hardcore) y el Hard Techno."+
+                "Fundado en abril del 2019 por Rour Thunderz, Ikari Night y D-Acore. Cuba es un país donde los géneros"+
+                " Hard estan empezando a llamar la atención y uno de nuestros objetivos es que todos los amantes de esta"+
+                " música encuentren la información necesaria sobre que es lo que pasa con estos grandes estilos"+
+                " aqui en el país y alrededor del mundo, informandoles de todos los acontecimientos. También damos detallada"+
+                " información de todos los estilos dentro del Hard Dance para que los cubanos aprendamos un poco mas cada dia sobre esta"+
+                " maravillosa música";
 
-    "Bibendum at varius vel pharetra vel turpis. Condimentum lacinia quis vel eros donec ac.";
-    const text2 = "Amet venenatis urna cursus eget nunc scelerisque. Velit aliquet sagittis id consectetur purus ut faucibus pulvinar. Quam nulla porttitor massa id neque aliquam vestibulum morbi. Rhoncus dolor purus non enim praesent elementum facilisis leo vel. Vulputate mi sit amet mauris commodo quis imperdiet massa tincidunt. Ipsum faucibus vitae aliquet nec ullamcorper sit amet risus nullam. Ut etiam sit amet nisl. Massa placerat duis ultricies lacus sed turpis tincidunt id. Quis viverra nibh cras pulvinar mattis nunc. Cursus risus at ultrices mi tempus. A cras semper auctor neque. Lobortis mattis aliquam faucibus purus in. Euismod lacinia at quis risus sed vulputate odio ut enim. Maecenas ultricies mi eget mauris pharetra et ultrices neque ornare. Consectetur adipiscing elit pellentesque habitant morbi. Adipiscing elit pellentesque habitant morbi tristique senectus. Imperdiet proin fermentum leo vel orci porta non."+
-  
-    "Tellus cras adipiscing enim eu turpis egestas pretium aenean. Ultrices mi tempus imperdiet nulla malesuada pellentesque elit eget gravida. Imperdiet nulla malesuada pellentesque elit eget gravida. Diam maecenas ultricies mi eget mauris pharetra et ultrices neque. Massa sapien faucibus et molestie. Viverra orci sagittis eu volutpat odio facilisis. Lobortis elementum nibh tellus molestie nunc non. Accumsan in nisl nisi scelerisque eu. Magna fermentum iaculis eu non diam phasellus vestibulum. Quam lacus suspendisse faucibus interdum posuere lorem ipsum. Adipiscing enim eu turpis egestas pretium. Semper eget duis at tellus at urna condimentum. Et tortor at risus viverra adipiscing at in. Non sodales neque sodales ut etiam sit amet nisl purus. Nisi quis eleifend quam adipiscing. Ridiculus mus mauris vitae ultricies. Enim diam vulputate ut pharetra. Senectus et netus et malesuada fames ac. Congue nisi vitae suscipit tellus mauris a diam maecenas sed. Scelerisque felis imperdiet proin fermentum."
+    
+    const text2 = "Hardstyle es un subgénero de la música electrónica con origen en el Trance y Hard Trance del año 2000 en países como Italia, Alemania y Holanda . El hardstyle normalmente consiste en un profundo y fuerte sonido de bombos, intensas líneas de bajo descontroladas o invertidas que acompañan el ritmo, un sintetizador tocando una melodía, y sonidos tanto distorsionados como melódicos. \nLos artistas de la corriente hardcore sentaron las bases del hardstyle.Uno de los primeros eventos de hardstyle, fue Qlubtempo,3​ y tuvo lugar a.finales del siglo XX (1998-99) lo que hoy en día evolucionó a Qlimax."+
+
+    "Los primeros años de la escena Hardstyle se caracterizaba por un ritmo de alrededor de 135-150 BPM, un sonido comprimido de batería, una muestra vocal corta, un chillido y un uso de un \"Reverse\" (kick and bass), que se puede escuchar después de cada golpe (similar al género del hard trance)."+
+    
+    "Alrededor de los años 2004 y 2005 se convirtió en un género más melódico y edificante (generándose el subgénero Nu-Style), un poco más rápido (por lo general 150 BPM), y distorsionado, con bajos acompañado de los golpes (basslines). La interpretación de este estilo radica en un comienzo (heredados del hard house), intermedio (heredados del hard trance) y finalización que va con un conteo de 4x4, dándole referencia a los golpes (heredado de la escena hardcore)."
     
     
   
@@ -27,7 +35,7 @@ export default function Home() {
     
     
       
-      <div className="flex flex-col  bg-slate-300">
+      <div className="flex flex-col   bg-slate-300">
         <Head>
           <title>Habana Hard Dance</title>
           <meta name="keywords" content='Hardstyle, Habana, Habana Hard Dance, A-Core, A Core, Rour Thunderz, Ikari Night,Cuba,Havana music'/>
