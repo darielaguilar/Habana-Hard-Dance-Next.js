@@ -11,6 +11,8 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 
 export default function Home() {
+  
+
   const text1 = "Habana Hard Dance es un movimiento para promover los géneros del Hard en especial el Hardstyle, el Techno Hardcore Gabber(Hardcore) y el Hard Techno."+
                 "Fundado en abril del 2019 por Rour Thunderz, Ikari Night y D-Acore. Cuba es un país donde los géneros"+
                 " Hard estan empezando a llamar la atención y uno de nuestros objetivos es que todos los amantes de esta"+
@@ -40,8 +42,12 @@ export default function Home() {
           <title>Habana Hard Dance</title>
           <meta name="keywords" content='Hardstyle, Habana, Habana Hard Dance, A-Core, A Core, Rour Thunderz, Ikari Night,Cuba,Havana music'/>
           <meta name="author" content='Dariel Aguilar Stewart'/>
-          <meta name="description" content='First consolidated Hardstyle cuban movement website. Brief history, and many djs bio'/>
+          <meta property='og:title' content='Habana Hard Dance'></meta>
+          <meta property="og:image" content='https://www.elindependiente.com/wp-content/uploads/2020/12/89763130_10159082671787281_7454019938114600960_o-1440x808.jpg'/>
+          <meta name="description" key="desc" content='First consolidated Hardstyle cuban movement website. Brief history, and many djs bio'/>
+          <meta property="og:description"  content='First consolidated Hardstyle cuban movement website. Brief history, and many djs bio'/>
           <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+          <link rel="canonical" href='https://habana-hard-dance-next-js.vercel.app/'  key="canonical"></link>
         </Head>
         
         <Header >
@@ -53,7 +59,7 @@ export default function Home() {
 
         <SectionSlide/>
         <TextContainer header="El hardstyle, hardcore y el hard en si" text={text2}/>
-        <TextContainer header="Sobre el futuro" text={text3}/>
+        
         <div className='flex align-middle mx-2 my-2 justify-center'>
         <audio controls autoPlay>
             <source src="Mustang Gunz for hire-E-Life.mp3" type="audio/mpeg"/>Your browser does not support the audio element
