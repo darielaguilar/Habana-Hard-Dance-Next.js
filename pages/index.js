@@ -42,10 +42,9 @@ export default function Home() {
           <title>Habana Hard Dance</title>
           <meta name="keywords" content='Hardstyle, Habana, Habana Hard Dance, A-Core, A Core, Rour Thunderz, Ikari Night,Cuba,Havana music'/>
           <meta name="author" content='Dariel Aguilar Stewart'/>
-          <meta property='og:title' content='Habana Hard Dance'></meta>
-          <meta property="og:image" content='https://www.elindependiente.com/wp-content/uploads/2020/12/89763130_10159082671787281_7454019938114600960_o-1440x808.jpg'/>
+          
           <meta name="description" key="desc" content='First consolidated Hardstyle cuban movement website. Brief history, and many djs bio'/>
-          <meta property="og:description"  content='First consolidated Hardstyle cuban movement website. Brief history, and many djs bio'/>
+          
           <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
           <link rel="canonical" href='https://habana-hard-dance-next-js.vercel.app/'  key="canonical"></link>
         </Head>
